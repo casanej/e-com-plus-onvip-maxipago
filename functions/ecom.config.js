@@ -7,8 +7,8 @@
 
 const app = {
   app_id: 102413,
-  title: 'My Awesome E-Com Plus App',
-  slug: 'my-awesome-app',
+  title: 'Onvip E-Com Plus Payment',
+  slug: 'ecom-plus-onvip',
   type: 'external',
   state: 'active',
   authentication: true,
