@@ -7,7 +7,7 @@
 
 const app = {
   app_id: 102413,
-  title: 'Onvip E-Com Plus Payment',
+  title: 'Onvip E-Com Plus Payment v1.0.0',
   slug: 'ecom-plus-onvip',
   type: 'external',
   state: 'active',
