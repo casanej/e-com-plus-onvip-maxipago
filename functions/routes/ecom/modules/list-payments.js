@@ -45,5 +45,21 @@ exports.post = ({ appSdk }, req, res) => {
 
   */
 
+  response.payment_gateways.push({
+    intermediator: {
+      code: 'mmaxipago',
+      link: 'https://www.maxipago.com/',
+      name: 'Maxi Pago'
+    },
+    payment_url: 'https://api.maxipago.net/UniversalAPI/postXML',
+    type: 'payment',
+    payment_method: {
+      code: 'credit_card',
+      name: 'Cartão de Crédito'
+    },
+    label: 'Cartão de Crédito',
+    expiration_date: appData.expiration_date || 14
+  })
+
   res.send(response)
 }
